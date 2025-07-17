@@ -1,17 +1,17 @@
 // Map button text to image IDs (fill out for all buttons)
 const buttonImageMap = {
-    // Archetype buttons (match these with the HTML labels!)
+    // Archetype buttons 
     "All-rounder": ["img15", "img16", "img25", "img9", "img32", "img10", "img19", "img3", "img30"],
     "Zone Control": ["img18","img33","img29","img23","img12","img8","img11"],
     "Rushdown": ["img17","img7","img1","img28","img6","img26","img22","img27"],
     "Big Body": ["img2","img13"],
     "Unorthodox": ["img24","img31","img14","img5","img4","img35","img34","img36","img20","img21"],
-    // Desired Tools buttons (fill these out!)
+    // Desired Tools buttons 
     "5f c.L": ["img1","img3","img4","img6","img7","img8","img9","img10","img12","img14","img15","img16","img17","img19","img22","img24","img25","img26","img27","img28","img29","img30","img31","img32","img33","img34","img35"],
-    "Meterless Reversal": [],
-    "Non-Launching/Crumple Specials": [],
-    "Long Range Pokes": [],
-    "Throw Bait Option": []
+    "Meterless Reversal": ["img3","img9","img10","img14","img15","img16","img17","img19","img25","img26","img27","img30","img32","img33","img35"],
+    "Non-Launching/Crumple Specials": ["img1","img3","img4","img5","img6","img7","img9","img11","img12","img13","img14","img15","img16","img17","img19","img20","img22","img23","img25","img26","img28","img29","img31","img32","img33","img34","img35","img36"],
+    "Long Range Pokes": ["img1","img2","img4","img5","img8","img9","img10","img11","img14","img18","img20","img21","img22","img23","img25","img27","img30","img33","img34","img36"],
+    "Command Grab": ["img2","img3","img9","img10","img13","img21","img26","img32","img33","img35"]
 };
 
 // Helper to set greyscale for a set of images
