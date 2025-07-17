@@ -2,8 +2,11 @@
     text-align: center;
 }
 
-.game-buttons {
-    transform: scale(0.5);
+.active-button {
+  background-color: #0066ff;
+  color: white;
+  border: 2px solid #003399;
+  box-shadow: 0 0 6px #0066ff;
 }
 
 .button-row {
@@ -40,7 +43,8 @@
 }
 
 .image-set img {
-  flex: 0 1 calc(10% - 4px); /* 10 images per row, minus the gap */
-  max-width: 49px;           /* Set a max width for images */
-  height: auto;               /* Maintain aspect ratio */
+  flex: 0 1 calc(10% - 4px); 
+  max-width: 49px;           
+  height: auto;              
 }
+
