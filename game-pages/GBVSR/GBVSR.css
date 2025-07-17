@@ -1,0 +1,46 @@
+.centered-heading {
+    text-align: center;
+}
+
+.game-buttons {
+    transform: scale(0.5);
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;   
+  flex-wrap: wrap;           
+  gap: 16px;                 
+  max-width: 540px;          
+  margin: 0 auto;            
+}
+
+.button-row button {
+  flex: 1 1 30%;            
+  min-width: 120px;          
+  max-width: 180px;          
+  padding: 12px 24px;        
+}
+
+.color-img {
+  transition: filter 0.3s;
+}
+
+.greyed-out {
+  filter: grayscale(100%);
+}
+
+.image-set {
+  display: flex;
+  flex-wrap: wrap;           
+  justify-content: center;   
+  gap: 4px;                 
+  margin: 0 auto;            
+  max-width: 900px;          
+}
+
+.image-set img {
+  flex: 0 1 calc(10% - 4px); /* 10 images per row, minus the gap */
+  max-width: 49px;           /* Set a max width for images */
+  height: auto;               /* Maintain aspect ratio */
+}
