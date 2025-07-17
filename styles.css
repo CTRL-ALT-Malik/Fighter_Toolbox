@@ -1,3 +1,7 @@
 .centered-heading {
     text-align: center;
 }
+
+.game-buttons {
+    transform: scale(0.5);
+}
